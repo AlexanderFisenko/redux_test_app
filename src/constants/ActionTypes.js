@@ -1,0 +1,2 @@
+export const INITIAL_LOAD = 'INITIAL_LOAD'
+export const SWITCH_CHECK = 'SWITCH_CHECK'
