@@ -4,9 +4,8 @@ import Player from './Player.js.jsx'
 
 class Players extends Component {
   render() {
-    const that = this
     const players = this.props.players.map(player =>
-      <Player key={player.id} store={that.props.store} {...player} />
+      <Player key={player.id} store={this.props.store} {...player} />
     )
     return (
       <div>
